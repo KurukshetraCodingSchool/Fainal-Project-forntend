@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Font1;
+    src: url(./font/07070ee11dc38bfbd060.ttf);
+}
+@font-face {
+    font-family: Font2;
+    src: url(./font/b44b93a780ecd8dbafec.ttf);
+}
+@font-face {
+    font-family: Font3;
+    src: url(./font/bd8de66be4175fed48a7.ttf);
+}
+@font-face {
+    font-family: Font4;
+    src: url(./font/c77ea51aaaf5f15bd55d.ttf);
+}
+@font-face {
+    font-family: Font5;
+    src: url(./font/dd34dea82ffd23ec2838.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://emmpo.com/assets/846faa9c110b840e7cd7.png);
+    background-position: center;
+    background-size:cover;
+}
+nav{
+width: 100%;
+height: 7vh;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-left: 50px;
+padding-right: 50px;
+
+}
+nav .navpart1 , .navpart3{
+font-family: font2;
+text-transform: uppercase;
+
+}
+
+nav .navpart2 ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-family: font1;
+}
+
+.hero .top{
+    width: 100%;
+    font-size: 140px;
+    font-family: font2;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color: #F8FE23;
+    line-height: 200PX;
+    
+}
+.hero .bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: font2;
+    text-transform: uppercase;
+    color: #F8FE23;
+    font-size: 50px;
+    line-height: 20px;
+}
+.hero .down{
+    width: 100%;
+    height: 8vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 437px;
+}
+
+.hero .down h2{
+    font-size: 30px;
+    font-family: font3; 
+}
+.hero .down h3{
+    font-family: font2;
+    font-size: 28px;
+    color:#F8FE23;
+}
