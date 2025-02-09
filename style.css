@@ -383,6 +383,234 @@ margin-top: 30px;
 .Page6 .top .text{
     width: 550px;
   height: 300px;
-    background-color: #F8FE23;
     margin-left: 650px;
+}
+
+.Page6 .top .text h4{
+    font-size: 32px;
+    color: #7546FF;
+    font-family: font2;
+    
+}
+.Page6 .top .text p{
+    font-size: 30px;
+    font-family: font3;
+    margin-top: 20px;
+}
+
+.Page6 .top .text p span{
+    font-family: font4;
+    font-weight: 900;
+}
+
+.Page6 .down{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://emmpo.com/assets/e329b1b09ab707b7e116.png);
+    background-position:center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.Page6 .down .left{
+ position: absolute;
+ top: -50%;
+ left: 10%;
+
+}
+.Page6 .down .left img{
+    width: 300px;
+}
+.Page6 .down .left #img1{
+   rotate: -20deg;
+}
+.Page6 .down .left #img2{
+    rotate: -10deg;
+    position: absolute;
+    top: 80%;
+    width: 200px;
+    left: 35%;
+}
+.Page6 .down .right{
+    position: absolute;
+    top: -20%;
+    right: 0%;
+}
+.Page6 .down .right #img2{
+    rotate: -0deg;
+    position: absolute;
+    top: 80%;
+    width: 200px;
+    left: 35%;
+}
+.Page6 .down .center #img2{
+    position: absolute;
+    top: 70%;
+    left:35%;
+}
+.Page6 .down .center #img3{
+    position: absolute;
+    top: 73%;
+    left:45%;
+}
+
+.Page7{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://emmpo.com/assets/e329b1b09ab707b7e116.png);
+    background-position: center;
+    background-size: cover;
+    gap: 10px;
+    overflow: hidden;
+}
+.Page7 img{
+    width: 300px;
+}
+
+.Page7 img:nth-child(n)  {
+    rotate: -20deg;
+
+    }
+    .Page7 img:nth-child(2n){
+        rotate: 20deg;
+    
+        }
+
+footer{
+    width: 100%;
+    height: 150vh;
+    background-image: url(https://emmpo.com/assets/0e201813c69b95105df6.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+footer h1{
+    font-size: 200px;
+    font-family: font2;
+   text-transform: uppercase;
+    color: #F8FE23;
+ 
+}
+footer img{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left:20%;
+}
+
+footer  .message{
+    width: 700px;
+    height: 600px;
+    background-color: #7546FF;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;   
+    gap: 20px; 
+}
+footer .message h1{
+    font-size: 80px;
+    font-family: font2;
+   text-transform: uppercase;
+    color: #F8FE23;
+    line-height: 80px; 
+}
+footer  .message .text{
+    width: 90%;
+    height: 75%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: column;
+    padding: 50px;
+}
+
+footer  .message .text h2 {
+    font-size: 75px;
+    font-family: font4;
+   
+}
+footer  .message .text h2 span{
+    color: #7546FF;
+}
+
+footer  .message .text form{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+
+footer  .message .text form div{
+    width: 100%;    
+    height: 50px;
+    border-bottom: 1px solid black;   
+    display: flex;
+    align-items: flex-end; 
+    gap: 20px; 
+}
+footer  .message .text form div label{
+    font-size: 20px;
+    font-family: font4;
+}
+
+footer  .message .text form div input , textarea{
+    width: 80%;
+    /* height: 100%; */
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+footer .footerDown{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+footer .footerDown h1{
+    font-size: 150px;
+    font-family: font5;
+    line-height: 170px;
+}
+footer .footerDown  .tag{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+footer .footerDown  .tag img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+footer .footerDown .tag  h2{
+    font-family: monospace;
+    font-size: 20px;
+    color: #7546FF;
+    margin-left: 20px;
 }
