@@ -2,72 +2,84 @@
     font-family: Font1;
     src: url(./font/07070ee11dc38bfbd060.ttf);
 }
+
 @font-face {
     font-family: Font2;
     src: url(./font/b44b93a780ecd8dbafec.ttf);
 }
+
 @font-face {
     font-family: Font3;
     src: url(./font/bd8de66be4175fed48a7.ttf);
 }
+
 @font-face {
     font-family: Font4;
     src: url(./font/c77ea51aaaf5f15bd55d.ttf);
 }
+
 @font-face {
     font-family: Font5;
     src: url(./font/dd34dea82ffd23ec2838.ttf);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html,body{
+
+html,
+body {
     width: 100%;
     height: 100%;
     background-color: #F9F5EC;
 }
-main{
+
+main {
     width: 100%;
 
 }
-.hero{
+
+.hero {
     width: 100%;
     height: 100vh;
     background-image: url(https://emmpo.com/assets/846faa9c110b840e7cd7.png);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
 }
-nav{
-width: 100%;
-height: 7vh;
 
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding-left: 50px;
-padding-right: 50px;
-color: white;
-mix-blend-mode: difference;
-position: fixed;
+nav {
+    width: 100%;
+    height: 7vh;
 
-}
-nav .navpart1 , .navpart3{
-font-family: font2;
-text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    mix-blend-mode: difference;
+    position: fixed;
+    z-index: 1;
 
 }
 
-nav .navpart2 ul{
+nav .navpart1,
+.navpart3 {
+    font-family: font2;
+    text-transform: uppercase;
+
+}
+
+nav .navpart2 ul {
     list-style: none;
     display: flex;
     gap: 40px;
     font-family: font1;
 }
 
-.hero .top{
+.hero .top {
     width: 100%;
     font-size: 140px;
     font-family: font2;
@@ -77,9 +89,10 @@ nav .navpart2 ul{
     color: #F8FE23;
     line-height: 200PX;
     padding-top: 50px;
-    
+
 }
-.hero .bottom{
+
+.hero .bottom {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -91,7 +104,8 @@ nav .navpart2 ul{
     font-size: 50px;
     line-height: 20px;
 }
-.hero .down{
+
+.hero .down {
     width: 100%;
     height: 8vh;
 
@@ -103,30 +117,35 @@ nav .navpart2 ul{
     margin-top: 437px;
 }
 
-.hero .down h2{
+.hero .down h2 {
     font-size: 30px;
-    font-family: font3; 
+    font-family: font3;
 
 }
-.hero .down h3{
+
+.hero .down h3 {
     font-family: font2;
     font-size: 28px;
-    color:#F8FE23;
+    color: #F8FE23;
 }
-.hero .downpart1{
+
+.hero .downpart1 {
     position: fixed;
     left: 50px;
     color: white;
     mix-blend-mode: difference;
+    z-index: 2;
 }
+
 .hero .downpart2 {
     position: fixed;
     right: 50px;
     color: white;
     mix-blend-mode: difference;
+    z-index: 2;
 }
 
-.Page2{
+.Page2 {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -135,41 +154,46 @@ nav .navpart2 ul{
     justify-content: center;
     position: relative;
 }
-.Page2 h1{
+
+.Page2 h1 {
     font-family: font2;
     text-transform: uppercase;
     font-size: 160px;
     line-height: 140px;
     text-align: center;
-    
+
 }
-.Page2 span{
+
+.Page2 span {
     color: #7546FF;
 }
-.Page2 #img1{
+
+.Page2 #img1 {
     position: absolute;
     top: 56%;
     right: 50px;
     z-index: -1;
     width: 200px;
     rotate: -20deg;
-    
+
 }
-.Page2 #img2{
+
+.Page2 #img2 {
     position: absolute;
     top: 78%;
     right: 45px;
     z-index: -1;
     rotate: -20deg;
-     
+
 }
 
 .Page3 {
     width: 100%;
     height: 200vh;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
-.Page3 .content{
+
+.Page3 .content {
     width: 100%;
     height: 70%;
     display: flex;
@@ -177,22 +201,25 @@ nav .navpart2 ul{
     justify-content: space-between;
     overflow: hidden;
 }
-.Page3 .content img{
+
+.Page3 .content img {
     width: 250px;
     height: 100%;
 }
-.Page3 .content .text{
-font-family: font5;
-display: flex;
-align-items: center;
-flex-direction: column;
-height: 100%;
-height: 100%;
-justify-content: flex-end;
-gap: 100px;
+
+.Page3 .content .text {
+    font-family: font5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    gap: 100px;
 }
-.Page3 .content .text h1{
-  
+
+.Page3 .content .text h1 {
+
     font-family: font2;
     text-transform: uppercase;
     font-size: 70px;
@@ -200,20 +227,23 @@ gap: 100px;
     font-family: font5;
     text-align: center;
 }
-.Page3 .content .text h3{
+
+.Page3 .content .text h3 {
     font-size: 80px;
     font-family: font2;
-   color: #7546FF;
-   
-}
-.Page3 .content #img1{
-rotate: -20deg;
-}
-.Page3 .content #img2{
-    rotate: 20deg;
-    }
+    color: #7546FF;
 
-.Page3 .top{
+}
+
+.Page3 .content #img1 {
+    rotate: -20deg;
+}
+
+.Page3 .content #img2 {
+    rotate: 20deg;
+}
+
+.Page3 .top {
     width: 100%;
     height: 50vh;
     display: flex;
@@ -222,7 +252,8 @@ rotate: -20deg;
     justify-content: center;
     position: relative;
 }
-.Page3 .top .centerDiv{
+
+.Page3 .top .centerDiv {
     font-family: font2;
     width: 28%;
     height: 100%;
@@ -233,43 +264,47 @@ rotate: -20deg;
     flex-direction: column;
     position: relative;
 }
-.Page3 .top .centerDiv img{
+
+.Page3 .top .centerDiv img {
     width: 90%;
     height: 75%;
     object-fit: cover;
     object-position: center;
 }
-.Page3 .top .centerDiv h1{
+
+.Page3 .top .centerDiv h1 {
     font-size: 30px;
     color: white;
     text-align: center;
-position: absolute;
-top: 20px;
-}
-.Page3 .top .centerDiv h2{
-    font-size: 25px;
-    text-align: center;   
+    position: absolute;
+    top: 20px;
 }
 
-.Page3 .top .leftDiv{
+.Page3 .top .centerDiv h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.Page3 .top .leftDiv {
     width: 30%;
     height: 100%;
-/* background-color: #7546FF; */
-position: absolute;
-left: 100px;
-top: -100px;
-z-index: -1;
-rotate: -20deg;
+    /* background-color: #7546FF; */
+    position: absolute;
+    left: 100px;
+    top: -100px;
+    z-index: -1;
+    rotate: -20deg;
 
 }
 
 
-.Page3 .top .leftDiv #img1{
+.Page3 .top .leftDiv #img1 {
 
-width: 50%;
+    width: 50%;
 
 }
-.Page3 .top .leftDiv #img2{
+
+.Page3 .top .leftDiv #img2 {
     width: 50%;
     position: absolute;
     top: 75%;
@@ -281,21 +316,23 @@ width: 50%;
 }
 
 
-.Page3 .top .rigthDiv{
+.Page3 .top .rigthDiv {
     width: 30%;
     height: 100%;
-    
+
     position: absolute;
     right: 0px;
     rotate: 20deg;
 }
-.Page3 .top .rigthDiv #img1{
-   width: 50%;
+
+.Page3 .top .rigthDiv #img1 {
+    width: 50%;
     height: 75%;
     object-fit: cover;
     object-position: center;
 }
-.Page3 .top .rigthDiv #img2{
+
+.Page3 .top .rigthDiv #img2 {
     width: 50%;
     position: absolute;
     top: 45%;
@@ -319,7 +356,7 @@ width: 50%;
     gap: 50px;
 }
 
-.Page4 .top h1{
+.Page4 .top h1 {
     font-size: 150px;
     color: white;
     mix-blend-mode: difference;
@@ -329,7 +366,7 @@ width: 50%;
     line-height: 140px;
 }
 
-.Page4 .center h2{
+.Page4 .center h2 {
     font-size: 50px;
     display: flex;
     display: flex;
@@ -342,25 +379,27 @@ width: 50%;
     font-family: font2;
     font-size: 60px;
 }
-.Page4 .center img{
+
+.Page4 .center img {
     border: 15px solid #F8FE23;
     width: 300px;
 }
 
-.Page4 .bottom h2{
+.Page4 .bottom h2 {
     font-size: 70px;
     color: wheat;
     font-family: font2;
     text-transform: uppercase;
     text-align: center;
-margin-top: 30px;
+    margin-top: 30px;
 }
 
-.Page6{
+.Page6 {
     width: 100%;
     height: 200vh;
 }
-.Page6 .top{
+
+.Page6 .top {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -369,45 +408,48 @@ margin-top: 30px;
     position: relative;
     flex-direction: column;
 }
-.Page6 .top h1{
+
+.Page6 .top h1 {
     font-size: 150px;
     text-transform: uppercase;
     font-family: font2;
     text-align: center;
     line-height: 140px;
 }
-.Page6 .top  h1 span{
+
+.Page6 .top h1 span {
     color: #7546FF;
 }
 
-.Page6 .top .text{
+.Page6 .top .text {
     width: 550px;
-  height: 300px;
+    height: 300px;
     margin-left: 650px;
 }
 
-.Page6 .top .text h4{
+.Page6 .top .text h4 {
     font-size: 32px;
     color: #7546FF;
     font-family: font2;
-    
+
 }
-.Page6 .top .text p{
+
+.Page6 .top .text p {
     font-size: 30px;
     font-family: font3;
     margin-top: 20px;
 }
 
-.Page6 .top .text p span{
+.Page6 .top .text p span {
     font-family: font4;
     font-weight: 900;
 }
 
-.Page6 .down{
+.Page6 .down {
     width: 100%;
     height: 100vh;
     background-image: url(https://emmpo.com/assets/e329b1b09ab707b7e116.png);
-    background-position:center;
+    background-position: center;
     background-size: contain;
     display: flex;
     align-items: center;
@@ -415,49 +457,57 @@ margin-top: 30px;
     position: relative;
 
 }
-.Page6 .down .left{
- position: absolute;
- top: -50%;
- left: 10%;
+
+.Page6 .down .left {
+    position: absolute;
+    top: -50%;
+    left: 10%;
 
 }
-.Page6 .down .left img{
+
+.Page6 .down .left img {
     width: 300px;
 }
-.Page6 .down .left #img1{
-   rotate: -20deg;
+
+.Page6 .down .left #img1 {
+    rotate: -20deg;
 }
-.Page6 .down .left #img2{
+
+.Page6 .down .left #img2 {
     rotate: -10deg;
     position: absolute;
     top: 80%;
     width: 200px;
     left: 35%;
 }
-.Page6 .down .right{
+
+.Page6 .down .right {
     position: absolute;
     top: -20%;
     right: 0%;
 }
-.Page6 .down .right #img2{
+
+.Page6 .down .right #img2 {
     rotate: -0deg;
     position: absolute;
     top: 80%;
     width: 200px;
     left: 35%;
 }
-.Page6 .down .center #img2{
+
+.Page6 .down .center #img2 {
     position: absolute;
     top: 70%;
-    left:35%;
-}
-.Page6 .down .center #img3{
-    position: absolute;
-    top: 73%;
-    left:45%;
+    left: 35%;
 }
 
-.Page7{
+.Page6 .down .center #img3 {
+    position: absolute;
+    top: 73%;
+    left: 45%;
+}
+
+.Page7 {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -469,20 +519,22 @@ margin-top: 30px;
     gap: 10px;
     overflow: hidden;
 }
-.Page7 img{
+
+.Page7 img {
     width: 300px;
 }
 
-.Page7 img:nth-child(n)  {
+.Page7 img:nth-child(n) {
     rotate: -20deg;
 
-    }
-    .Page7 img:nth-child(2n){
-        rotate: 20deg;
-    
-        }
+}
 
-footer{
+.Page7 img:nth-child(2n) {
+    rotate: 20deg;
+
+}
+
+footer {
     width: 100%;
     height: 150vh;
     background-image: url(https://emmpo.com/assets/0e201813c69b95105df6.png);
@@ -495,21 +547,23 @@ footer{
     justify-content: center;
     position: relative;
 }
-footer h1{
+
+footer h1 {
     font-size: 200px;
     font-family: font2;
-   text-transform: uppercase;
+    text-transform: uppercase;
     color: #F8FE23;
- 
+
 }
-footer img{
+
+footer img {
     position: absolute;
     top: 0;
     height: 100%;
-    left:20%;
+    left: 20%;
 }
 
-footer  .message{
+footer .message {
     width: 700px;
     height: 600px;
     background-color: #7546FF;
@@ -517,17 +571,19 @@ footer  .message{
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;   
-    gap: 20px; 
+    justify-content: center;
+    gap: 20px;
 }
-footer .message h1{
+
+footer .message h1 {
     font-size: 80px;
     font-family: font2;
-   text-transform: uppercase;
+    text-transform: uppercase;
     color: #F8FE23;
-    line-height: 80px; 
+    line-height: 80px;
 }
-footer  .message .text{
+
+footer .message .text {
     width: 90%;
     height: 75%;
     background-color: white;
@@ -539,56 +595,61 @@ footer  .message .text{
     padding: 50px;
 }
 
-footer  .message .text h2 {
+footer .message .text h2 {
     font-size: 75px;
     font-family: font4;
-   
+
 }
-footer  .message .text h2 span{
+
+footer .message .text h2 span {
     color: #7546FF;
 }
 
-footer  .message .text form{
+footer .message .text form {
     display: flex;
     flex-direction: column;
-    gap:20px
+    gap: 20px
 }
 
-footer  .message .text form div{
-    width: 100%;    
+footer .message .text form div {
+    width: 100%;
     height: 50px;
-    border-bottom: 1px solid black;   
+    border-bottom: 1px solid black;
     display: flex;
-    align-items: flex-end; 
-    gap: 20px; 
+    align-items: flex-end;
+    gap: 20px;
 }
-footer  .message .text form div label{
+
+footer .message .text form div label {
     font-size: 20px;
     font-family: font4;
 }
 
-footer  .message .text form div input , textarea{
+footer .message .text form div input,
+textarea {
     width: 80%;
     /* height: 100%; */
     border: none;
     outline: none;
     font-size: 20px;
 }
-footer .footerDown{
+
+footer .footerDown {
     width: 100%;
     height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-footer .footerDown h1{
+footer .footerDown h1 {
     font-size: 150px;
     font-family: font5;
     line-height: 170px;
 }
-footer .footerDown  .tag{
+
+footer .footerDown .tag {
     width: 300px;
     height: 200px;
     display: flex;
@@ -600,7 +661,7 @@ footer .footerDown  .tag{
     padding: 20px;
 }
 
-footer .footerDown  .tag img{
+footer .footerDown .tag img {
     width: 80px;
     height: 80px;
     object-fit: cover;
@@ -608,7 +669,7 @@ footer .footerDown  .tag img{
     border-radius: 50%;
 }
 
-footer .footerDown .tag  h2{
+footer .footerDown .tag h2 {
     font-family: monospace;
     font-size: 20px;
     color: #7546FF;
